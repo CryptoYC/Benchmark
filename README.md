@@ -11,23 +11,48 @@
 ## 测试框架
 ### 大纲
 
+<details>
+<summary>查看详情</summary>
+  
 ![EVOLAB Benchmark技术架构](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/EVOLAB%20Benchmark%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84.png)
+
+</details>
 
 ### 白皮书分析
 
+<details>
+  
+<summary>查看详情</summary>
 ![白皮书分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png)
+
+</details>
 
 ### 代码分析
 
+<details>
+<summary>查看详情</summary>
+  
 ![代码分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90.png)
+
+</details>
 
 ### 安全测试
 
+<details>
+<summary>查看详情</summary>
+  
 ![安全测试](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95.png)
+
+</details>
 
 ### 性能测试
 
+<details>
+<summary>查看详情</summary>
+  
 ![性能测试](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.png)
+
+</details>
 
 ## 参与方式
 
