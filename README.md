@@ -11,7 +11,7 @@
 
 ### 白皮书分析
 
-![白皮书分析]([https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E7%99%BD%E7%9A%AE%E4%B9%A6%E5%88%86%E6%9E%90.png](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png))
+![白皮书分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png)
 
 ### 代码分析
 
