@@ -1,1 +1,30 @@
-# benchmark
+# EVOLAB Benchmark
+
+## 简介
+
+为了让投资者透明化地了解一个区块链项目的技术情况，EVOLABTech从共识、安全、性能、技术创新、代码和经济模型进行研究，推出了区块链项目的技术尽调报告EVOLAB Benchmark。
+
+## 测试框架
+### 大纲
+
+![EVOLAB Benchmark技术架构](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/EVOLAB%20Benchmark%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84.png)
+
+### 白皮书分析
+
+![白皮书分析]([https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E7%99%BD%E7%9A%AE%E4%B9%A6%E5%88%86%E6%9E%90.png](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png))
+
+### 代码分析
+
+![代码分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90.png)
+
+### 安全测试
+
+![安全测试](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95.png)
+
+### 性能测试
+
+![性能测试](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.png)
+
+## 参与方式
+
+## 学习路线
