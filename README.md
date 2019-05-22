@@ -4,6 +4,10 @@
 
 为了让投资者透明化地了解一个区块链项目的技术情况，EVOLABTech从共识、安全、性能、技术创新、代码和经济模型进行研究，推出了区块链项目的技术尽调报告EVOLAB Benchmark。
 
+若有想法或意见请向我们反馈，非常感谢 :heart:
+
+## 成果
+
 [EVOLAB Benchmark技术尽调报告-Quark](https://github.com/EVOLABTeam/benchmark/blob/master/report/EVOLAB%20Benchmark%20Quark.pdf)
 
 [EVOLAB Benchmark技术尽调报告-Tron](https://github.com/EVOLABTeam/benchmark/blob/master/report/EVOLAB%20Benchmark%20Tron.pdf)
@@ -52,4 +56,4 @@
 
 ## 参与方式
 
-## 学习路线
+![招小木](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E6%8B%9B%E5%B0%8F%E6%9C%A8.jpg)
