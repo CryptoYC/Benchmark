@@ -12,7 +12,7 @@
 
 - [EVOLAB Benchmark技术尽调报告-Tron](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Tron.md)
 
-# Benchmark的测试框架
+# Benchmark框架
 
 <details>
 <summary>查看详情</summary>
@@ -58,10 +58,14 @@
 
 </details>
 
+# 学习资料
+- [《Benchmark框架从入门到精通》](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
+
+
 #  联系我们
 
 ![招小木](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E6%8B%9B%E5%B0%8F%E6%9C%A8.jpg)
 
 
-
 # TO-DO
+
