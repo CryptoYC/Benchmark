@@ -1,3 +1,5 @@
+
+
 ##  一、 概述
 
 VeChain 是一个与以太坊生态系统高度兼容的通用区块链公链项目。具有明确的治理模型迭代规划，通过选举获权维持生态平衡。
@@ -12,6 +14,8 @@ VeChain 是一个与以太坊生态系统高度兼容的通用区块链公链项
 
 我们的在AWS上部署了若干个Kubernetes节点，用以模拟Vchain网络的环境，具体测试环境如下
 
+![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/Kubernetes%20Test%20env.jpg)
+
 ### (二) 共识
 
 VeChainThor的共识机制采用的是PoA（Proof-of-authority ），即权威证明，而非PoW (Proof-of-Work)或PoS (Proof-of-stake)。
@@ -21,10 +25,27 @@ VeChainThor的共识机制采用的是PoA（Proof-of-authority ），即权威�
 
 
 ### (三) 安全
-  
+    通过Benchmark公链测试工具，我们对VeChain进行一系列安全测试，包括DDos攻击、网络带宽服务攻击等，我们的测试方法如下:
+1. 建立Stellar测试网
+2. 发送RPC，让测试网部分节点对其他节点发起攻击
+3. 得到测试结果
+
+| 方案 | 结果 | 备注 |
+| :--: | :--: | :--: |
+|      |      |      |
+
+
+
 
 ### (四) 性能
+    通过Benchmark公链测试工具，对VeChain进行性能测试，我们的测试方法如下：
+1. 建立Stellar测试网 
+2. 发送RPC，让测试网部分节点发起交易（每秒N笔交易，线性增长）;
+3. 节点检测交易同步的时间，直到检测到超过一定时间（一般是出块时间）；
 
+| 方案 | TPS | 备注 |
+| :--: | :--: | :--: |
+|      |      |      |
 
 ### (五) 技术创新
 
@@ -34,6 +55,12 @@ VET与VTHO之间具有直接关联。 VET是唯链雷神生态系统中的“智
 VTHO 作为执行转账交易和智能合约交易的能量或费用，由 VET 随时间推移而生成。
 
 ### (六) 代码
+1. 代码概况
+
+2. 代码更新
+
+3. 代码重复
+
 
 ### (七) 经济模型
 

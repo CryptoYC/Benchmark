@@ -12,6 +12,8 @@
 
 - [EVOLAB Benchmark技术尽调报告-Tron](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Tron.md)
 
+- [EVOLAB Benchmark技术尽调报告-Vechain (ing...)](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Vechain.md)
+
 # Benchmark框架
 
 <details>
