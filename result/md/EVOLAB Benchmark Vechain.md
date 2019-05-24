@@ -1,7 +1,4 @@
----
-typora-root-url: asset\img
-typora-copy-images-to: asset
----
+
 
 ##  一、 概述
     唯链和唯链雷神区块链的愿景是打造一个信息透明、协同高效、价值高速传输的可信任分布式商业环境。VET是唯链雷神生态系统中的“智能货币”或“智能价值”，可在智能合约中编程和执行，从而推进唯链雷神区块链上运营商业活动，完成价值传导。此外，VET 可被视为在生态系统内各点之间建立联系的关键元素。VTHO 作为执行转账交易和智能合约交易的能量或费用，由 VET 随时间推移而生成。
@@ -13,7 +10,7 @@ typora-copy-images-to: asset
 
     我们的在AWS上部署了若干个Kubernetes节点，用以模拟Vchain网络的环境，具体测试环境如下
 
-![Kubernetes Test env](/../Kubernetes Test env.jpg)
+![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/Kubernetes%20Test%20env.jpg)
 
 ### (二) 共识
 
