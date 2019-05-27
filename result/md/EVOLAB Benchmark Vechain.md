@@ -14,7 +14,7 @@ VeChain 是一个与以太坊生态系统高度兼容的通用区块链公链项
 
 我们的在AWS上部署了若干个Kubernetes节点，用以模拟Vchain网络的环境，具体测试环境如下
 
-![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/Kubernetes%20Test%20env.jpg)
+![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Kubernetes%20Test%20env.jpg)
 
 ### (二) 共识
 
@@ -26,7 +26,7 @@ PoA协议特点：
 PoA对比PoW 速度较快，效率更高。社区治理的合理性，潜在的中心化风险，更值得关注。
 共识协议对比如下：
 
-![PoA VS PoW](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/PoA.PNG)
+![PoA VS PoW](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/PoA.PNG)
 
 VeChain 使用Go实现PoA共识协议，结合语言高并发特性，允许单笔交易采用PoW共识机制，并支持“多任务交易”。超级权益节点不会受到外界因素影响，验证数量也没有最低要求。
 
@@ -84,7 +84,7 @@ VTHO 作为执行转账交易和智能合约交易的能量或费用，由 VET �
 
 2. 代码更新
 
-   ![Vechain_code commit](E:\study\blockchain\benchmark\result\md\asset\Vechain_code commit.png)
+   ![Vechain_code commit](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Vechain_code%20commit.png)
 
 3. 代码重复
 
