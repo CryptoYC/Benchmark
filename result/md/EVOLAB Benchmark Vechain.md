@@ -14,7 +14,7 @@ VeChain 是一个与以太坊生态系统高度兼容的通用区块链公链项
 
 我们的在AWS上部署了若干个Kubernetes节点，用以模拟Vchain网络的环境，具体测试环境如下
 
-![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/Kubernetes%20Test%20env.jpg)
+![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Kubernetes%20Test%20env.jpg)
 
 ### (二) 共识
 
@@ -26,7 +26,7 @@ PoA协议特点：
 PoA对比PoW 速度较快，效率更高。社区治理的合理性，潜在的中心化风险，更值得关注。
 共识协议对比如下：
 
-![PoA VS PoW](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/PoA.PNG)
+![PoA VS PoW](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/PoA.PNG)
 
 VeChain 使用Go实现PoA共识协议，结合语言高并发特性，允许单笔交易采用PoW共识机制，并支持“多任务交易”。超级权益节点不会受到外界因素影响，验证数量也没有最低要求。
 
@@ -34,27 +34,30 @@ VeChain 使用Go实现PoA共识协议，结合语言高并发特性，允许单�
 ### (三) 安全
 
 通过Benchmark公链测试工具，我们对VeChain进行一系列安全测试，包括DDos攻击、网络带宽服务攻击等，我们的测试方法如下:
-1. 建立Stellar测试网
+1. 建立VeChain测试网
 2. 发送RPC，让测试网部分节点对其他节点发起攻击
 3. 得到测试结果
 
-| 方案 | 结果 | 备注 |
-| :--: | :--: | :--: |
-|      |      |      |
+|     方案     |  结果  |                             备注                             |
+| :----------: | :----: | :----------------------------------------------------------: |
+|   DDoS攻击   | 不通过 |   以大量的通信量冲击网络，使得所有可用网络资源都被消耗殆尽   |
+| 网络分裂攻击 | 不通过 | 把网络分成两个或多个部分，使得在较小的链上进行的任何重复交易都将丢失 |
 
-
+从DDos攻击测试结果可知，攻击者可以向全部或51％的超级节点发送DDoS攻击并使VeChain网络无法使用；从网络分裂攻击测试结果可知，在发生网络分裂攻击后，在网络恢复正常之前，在较小的链上进行的任何重复交易都将丢失。
 
 
 ### (四) 性能
 
 通过Benchmark公链测试工具，对VeChain进行性能测试，我们的测试方法如下：
-1. 建立Stellar测试网 
+1. 建立VeChain测试网 
 2. 发送RPC，让测试网部分节点发起交易（每秒N笔交易，线性增长）;
 3. 节点检测交易同步的时间，直到检测到超过一定时间（一般是出块时间）；
 
 | 方案 | TPS | 备注 |
 | :--: | :--: | :--: |
-|      |      |      |
+| 理想网络情况 | 1500 | 单机虚拟机网络，无限网络连接 |
+| 正常网络情况 | 1000 | 分布全球的100个节点，正常网络连接 |
+| 恶劣网络情况 | <1 |  |
 
 ### (五) 技术创新
 
@@ -67,10 +70,31 @@ VTHO 作为执行转账交易和智能合约交易的能量或费用，由 VET �
 
 1. 代码概况
 
+   VeChain的Github仓库的一共有30个公开仓库，主要仓库的具体数据如下:
+
+   |    repositories    | commits | watches | stars | forks | issues |
+   | :----------------: | :-----: | :-----: | :---: | :---: | :----: |
+   |        thor        |  2658   |   69    |  357  |  129  |   3    |
+   |   thor-devkit.js   |   60    |   11    |   9   |  10   |   0    |
+   |     connex-env     |   37    |    5    |   2   |   2   |   0    |
+   | thor-sync.electron |   879   |   12    |  16   |  16   |   1    |
+   | thor-client-sdk4j  |   241   |    5    |  15   |   9   |   1    |
+
+   按照理想网络情况下性能达到1200TPS
+
 2. 代码更新
+
+根据VeChain的thor的Github commits数据，得到thor的代码更新情况，如下:
+
+   ![Vechain_code commit](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Vechain_code%20commit.png)
 
 3. 代码重复
 
+-  通过Benchmark公链测试工具，对Vechain进行代码相似度检查，因为Vechain的技术栈是Go，选择以go-ethereum作为标准，具体测试方法如下建立代码索引库
+- 把thor的源代码放进Elasticsearch
+- 把thor的源代码和go-ethereum作比较
+
+从测试结果可知，thor一共281个文件，和go-ethereum相似的文件有58个。
 
 ### (七) 经济模型
 
