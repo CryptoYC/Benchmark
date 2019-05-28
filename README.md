@@ -56,7 +56,7 @@
 
 2. 点击 加入社区
 3. 添加小助手 EVOLAB_Tech , 并发送消息"Benchmark"
-4. 查看[《Benchmark社区游戏规则》](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
+4. 查看[《Benchmark社区游戏规则》](https://github.com/EVOLABTeam/blockchain-study/blob/master/asset/img/QRcode.jpg)
 
 欢迎大家一起来玩耍:heart:
 
