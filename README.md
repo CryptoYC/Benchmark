@@ -66,21 +66,16 @@
 
 # TO-DO
 
-1. ~~搭建Benchmark技术社区~~
-2. 完善Benchmark社区游戏规则
-3. 完善Benchmark框架从入门到精通
-3. 完成Benchmark技术黄皮书
-
-
-# In-Progress
-
 - [Benchmark社区游戏规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
 
 - [Benchmark模板](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Template.md)
 
-- [Benchmark框架从入门到精通](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
-
 - [Benchmark技术黄皮书](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Yellow%20Paper.md)
+
+
+# In-Progress
+
+- [Benchmark框架从入门到精通](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
 
 - [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
 
