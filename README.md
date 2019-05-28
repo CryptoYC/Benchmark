@@ -66,14 +66,21 @@
 
 # TO-DO
 
-1. ~~搭建Benchmark技术社区
-2. 完善Benchmark激励方案
-3. 完成Benchmark黄皮书
+1. ~~搭建Benchmark技术社区~~
+2. 完善Benchmark社区游戏规则
+3. 完善Benchmark框架从入门到精通
+3. 完成Benchmark技术黄皮书
 
 
 # In-Progress
 
-- [术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
+- [Benchmark社区游戏规则 (ing...)]()
+
+- [Benchmark框架从入门到精通](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
+
+- [Benchmark技术黄皮书 (ing...)]()
+
+- [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
 
 - [EVOLAB Benchmark技术尽调报告-Quark](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Quark.md)
 
