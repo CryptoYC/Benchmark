@@ -43,7 +43,7 @@ VeChain 使用Go实现PoA共识协议，结合语言高并发特性，允许单�
 |   DDoS攻击   | 不通过 |   以大量的通信量冲击网络，使得所有可用网络资源都被消耗殆尽   |
 | 网络分裂攻击 | 不通过 | 把网络分成两个或多个部分，使得在较小的链上进行的任何重复交易都将丢失 |
 
-
+从DDos攻击测试结果可知，攻击者可以向全部或51％的超级节点发送DDoS攻击并使VeChain网络无法使用；从网络分裂攻击测试结果可知，在发生网络分裂攻击后，在网络恢复正常之前，在较小的链上进行的任何重复交易都将丢失。
 
 
 ### (四) 性能
@@ -70,7 +70,7 @@ VTHO 作为执行转账交易和智能合约交易的能量或费用，由 VET �
 
 1. 代码概况
 
-   Stellar的Github仓库的一共有30个公开仓库，主要仓库的具体数据如下:
+   VeChain的Github仓库的一共有30个公开仓库，主要仓库的具体数据如下:
 
    |    repositories    | commits | watches | stars | forks | issues |
    | :----------------: | :-----: | :-----: | :---: | :---: | :----: |
@@ -80,9 +80,11 @@ VTHO 作为执行转账交易和智能合约交易的能量或费用，由 VET �
    | thor-sync.electron |   879   |   12    |  16   |  16   |   1    |
    | thor-client-sdk4j  |   241   |    5    |  15   |   9   |   1    |
 
-   
+   按照理想网络情况下性能达到1200TPS
 
 2. 代码更新
+
+根据VeChain的thor的Github commits数据，得到thor的代码更新情况，如下:
 
    ![Vechain_code commit](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Vechain_code%20commit.png)
 
@@ -91,6 +93,8 @@ VTHO 作为执行转账交易和智能合约交易的能量或费用，由 VET �
 -  通过Benchmark公链测试工具，对Vechain进行代码相似度检查，因为Vechain的技术栈是Go，选择以go-ethereum作为标准，具体测试方法如下建立代码索引库
 - 把thor的源代码放进Elasticsearch
 - 把thor的源代码和go-ethereum作比较
+
+从测试结果可知，thor一共281个文件，和go-ethereum相似的文件有58个。
 
 ### (七) 经济模型
 
