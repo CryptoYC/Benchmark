@@ -50,7 +50,7 @@
 
 # 怎样参与
 
-查看[《Benchmark社区游戏规则》](https://github.com/EVOLABTeam/blockchain-study/blob/master/asset/img/QRcode.jpg)
+查看[《Benchmark社区规则》](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
 
 欢迎大家一起来玩耍:heart:
 
