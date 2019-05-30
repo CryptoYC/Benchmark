@@ -7,7 +7,7 @@
 ## 2. 申请
 - 扫码关注 EvolabTech
 
-![招小木](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E6%8B%9B%E5%B0%8F%E6%9C%A8.jpg)
+![EvolabTech](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/QRcode.jpg)
 
 - 点击 加入社区
 - 添加小助手 EVOLAB_Tech , 并发送消息"Benchmark"
