@@ -81,5 +81,5 @@
 
 # 学习资料
 
-- [《Benchmark框架从入门到精通》](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
+- [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
 
