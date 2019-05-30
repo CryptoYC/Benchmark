@@ -1,7 +1,7 @@
 # Benchmark公告 :exclamation::exclamation::exclamation:
 ## TO-DO
 
-- [Benchmark社区游戏规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
+- [Benchmark社区规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
 
 - [Benchmark模板](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Template.md)
 
