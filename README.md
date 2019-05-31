@@ -1,14 +1,14 @@
 # Benchmark公告 :exclamation::exclamation::exclamation:
 ## TO-DO
 
-- [Benchmark社区规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
-
 - [Benchmark模板](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Template.md)
 
 - [Benchmark技术黄皮书](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Yellow%20Paper.md)
 
 
 ## In-Progress
+
+- [Benchmark社区规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
 
 - [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
 
