@@ -10,9 +10,11 @@
 
 ## In-Progress
 
-- [Benchmark框架从入门到精通](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
+- [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
 
 - [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
+
+- [EVOLAB Benchmark技术尽调报告-Cardano](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Cardano)
 
 ## Done
 
