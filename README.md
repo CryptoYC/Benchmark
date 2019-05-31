@@ -81,6 +81,12 @@
 
 欢迎大家一起来玩耍:dancers:
 
+# 奖励名单
+
+:trophy: [奖励名单](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Reward%20List.md)
+
+欢迎大家一起来玩耍:dancers:
+
 # 学习资料
 
 - [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
