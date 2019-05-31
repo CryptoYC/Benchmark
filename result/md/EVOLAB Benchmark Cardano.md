@@ -7,7 +7,7 @@
 
 我们的在AWS上部署了若干个Kubernetes节点，用以模拟Vchain网络的环境，具体测试环境如下
 
-![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Kubernetes%20Test%20env.jpg)
+![Kubernetes Test env](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Kubernetes%20%20Test%20env.png)
 
 ### (二) 共识
 
