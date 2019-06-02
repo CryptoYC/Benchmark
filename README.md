@@ -1,3 +1,29 @@
+# Benchmark公告 :exclamation::exclamation::exclamation:
+## TO-DO
+
+- [Benchmark模板](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Template.md)
+
+- [Benchmark技术黄皮书](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Yellow%20Paper.md)
+
+
+## In-Progress
+
+- [Benchmark社区规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
+
+- [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
+
+- [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
+
+- [EVOLAB Benchmark技术尽调报告-Cardano](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Cardano.md)
+
+## Done
+
+- [EVOLAB Benchmark技术尽调报告-Quark](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Quark.md)
+
+- [EVOLAB Benchmark技术尽调报告-Tron](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Tron.md)
+
+- [EVOLAB Benchmark技术尽调报告-Vechain](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Vechain.md)
+
 # Benchmark是什么
 
 > 贪婪，导致了许多项目在没有进行尽职调查的情况下轻松筹集了数百万美元 --《为何查理·芒格拒绝数字资产？》
@@ -11,13 +37,13 @@
 ![Benchmark技术架构](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/EVOLAB%20Benchmark%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84.png)
 
 
-### 资料分析
+### 白皮书分析
 
 <details>
 
 <summary>查看详情</summary>
 
-![资料分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png)
+![白皮书分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png)
 
 </details>
 
@@ -50,39 +76,16 @@
 
 # 怎样参与
 
-1. 扫码关注 EvolabTech
+:point_right:[《Benchmark社区规则》](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
 
-![招小木](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E6%8B%9B%E5%B0%8F%E6%9C%A8.jpg)
 
-2. 点击 加入社区
-3. 添加小助手 EVOLAB_Tech , 并发送消息"Benchmark"
-4. 查看[《Benchmark社区游戏规则》](https://github.com/EVOLABTeam/blockchain-study/blob/master/asset/img/QRcode.jpg)
+# 奖励名单
 
-欢迎大家一起来玩耍:heart:
+:trophy: [奖励名单](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Reward%20List.md)
+
+欢迎大家一起来玩耍:dancers:
 
 # 学习资料
 
-- [《Benchmark框架从入门到精通》](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
+- [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
 
-# TO-DO
-
-- [Benchmark社区游戏规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
-
-- [Benchmark模板](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Template.md)
-
-- [Benchmark技术黄皮书](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Yellow%20Paper.md)
-
-
-# In-Progress
-
-- [Benchmark框架从入门到精通](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
-
-- [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
-
-- [EVOLAB Benchmark技术尽调报告-Vechain](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Vechain.md)
-
-# Done
-
-- [EVOLAB Benchmark技术尽调报告-Quark](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Quark.md)
-
-- [EVOLAB Benchmark技术尽调报告-Tron](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Tron.md)
