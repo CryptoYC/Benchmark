@@ -14,7 +14,7 @@
 
 - [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
 
-- [EVOLAB Benchmark技术尽调报告-Cardano](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Cardano)
+- [EVOLAB Benchmark技术尽调报告-Cardano](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Cardano.md)
 
 ## Done
 
@@ -37,13 +37,13 @@
 ![Benchmark技术架构](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/EVOLAB%20Benchmark%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84.png)
 
 
-### 资料分析
+### 白皮书分析
 
 <details>
 
 <summary>查看详情</summary>
 
-![资料分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png)
+![白皮书分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png)
 
 </details>
 
@@ -79,8 +79,6 @@
 :point_right:[《Benchmark社区规则》](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
 
 
-欢迎大家一起来玩耍:dancers:
-
 # 奖励名单
 
 :trophy: [奖励名单](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Reward%20List.md)
@@ -90,4 +88,3 @@
 # 学习资料
 
 - [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
-
