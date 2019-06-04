@@ -33,6 +33,7 @@ Cardano在三个层次上进行创新。
 
 2. 代码更新
 
+![代码更新](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/asset/img/Cardano_code%20commit.png)
 
 
 3. 代码重复
