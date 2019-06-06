@@ -17,13 +17,13 @@
 
 ## Done
 
-- [EVOLAB Benchmark技术尽调报告-Quark](result/pdf/Benchmark_Quark_zh-cn.pdf)
+- [EVOLAB Benchmark技术尽调报告-Quark](https://mp.weixin.qq.com/s/GtMxlf8J8QdTiV2sZVTAPw)
 
-- [EVOLAB Benchmark技术尽调报告-Tron](result/pdf/Benchmark_Tron_zh-cn.pdf)
+- [EVOLAB Benchmark技术尽调报告-Tron](https://mp.weixin.qq.com/s/-NPpj73BCy381O4bwTcZ2A)
 
-- [EVOLAB Benchmark技术尽调报告-Vechain](result/md/Benchmark_Vechain_zh-cn/Benchmark_Vechain_zh-cn.md)
+- [EVOLAB Benchmark技术尽调报告-Vechain](https://mp.weixin.qq.com/s/K5CPeWYLEECddRHXSAMQ2Q)
 
-- [EVOLAB Benchmark技术尽调报告-Cardano](result/md/Benchmark_Cardano_zh-cn/Benchmark_Cardano_zh-cn.md)
+- [EVOLAB Benchmark技术尽调报告-Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
 
 # Benchmark是什么
 
