@@ -8,7 +8,7 @@
 ## 2. 申请
 - 添加小助手 EVOLAB_Tech , 并发送消息"Benchmark"
 
-![EvolabTech](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/asset/img/Join%20Us.jpg)
+![EvolabTech](media/Join_us.jpg)
 
 - 开始学习[《Benchmark框架从入门到精通》](https://github.com/EVOLABTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A) :boom:
 

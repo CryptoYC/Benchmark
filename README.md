@@ -1,20 +1,19 @@
 # Benchmark公告 :exclamation::exclamation::exclamation:
 ## TO-DO
 
-- [Benchmark模板](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Template.md)
-
-- [Benchmark技术黄皮书](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Yellow%20Paper.md)
+- [Benchmark模板](rule/md/Benchmark_template/Benchmark_template.md)
 
 
 ## In-Progress
 
 - [Benchmark社区规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
 
+- [Benchmark技术黄皮书](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Yellow%20Paper.md)
+
 - [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
 
 - [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
 
-- [EVOLAB Benchmark技术尽调报告-Cardano](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Cardano.md)
 
 ## Done
 
@@ -23,6 +22,8 @@
 - [EVOLAB Benchmark技术尽调报告-Tron](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Tron.md)
 
 - [EVOLAB Benchmark技术尽调报告-Vechain](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Vechain.md)
+
+- [EVOLAB Benchmark技术尽调报告-Cardano](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Cardano.md)
 
 # Benchmark是什么
 
