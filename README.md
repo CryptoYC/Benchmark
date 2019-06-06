@@ -21,9 +21,9 @@
 
 - [EVOLAB Benchmark技术尽调报告-Tron](result/pdf/Benchmark_Tron_zh-cn.pdf)
 
-- [EVOLAB Benchmark技术尽调报告-Vechain](result/md/Benchmark_Vechain_zh-cn.md)
+- [EVOLAB Benchmark技术尽调报告-Vechain](result/md/Benchmark_Vechain_zh-cn/Benchmark_Vechain_zh-cn.md)
 
-- [EVOLAB Benchmark技术尽调报告-Cardano](result/md/Benchmark_Cardano_zh-cn.md)
+- [EVOLAB Benchmark技术尽调报告-Cardano](result/md/Benchmark_Cardano_zh-cn/Benchmark_Cardano_zh-cn.md)
 
 # Benchmark是什么
 
