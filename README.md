@@ -6,24 +6,24 @@
 
 ## In-Progress
 
-- [Benchmark社区规则](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
+- [Benchmark社区规则](rule/md/Benchmark_rule/Benchmark_rule.md)
 
-- [Benchmark技术黄皮书](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Yellow%20Paper.md)
+- [Benchmark技术黄皮书](result/md/Benchmark_yellowpaper_zh-cn/Benchmark_rule.md)
 
 - [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
 
-- [Benchmark术语表](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/Glossary.md)
+- [Benchmark术语表](result/md/Glossary/Glossary.md)
 
 
 ## Done
 
-- [EVOLAB Benchmark技术尽调报告-Quark](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Quark.md)
+- [EVOLAB Benchmark技术尽调报告-Quark](result/pdf/Benchmark_Quark_zh-cn.pdf)
 
-- [EVOLAB Benchmark技术尽调报告-Tron](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Tron.md)
+- [EVOLAB Benchmark技术尽调报告-Tron](result/pdf/Benchmark_Tron_zh-cn.pdf)
 
-- [EVOLAB Benchmark技术尽调报告-Vechain](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Vechain.md)
+- [EVOLAB Benchmark技术尽调报告-Vechain](result/md/Benchmark_Vechain_zh-cn.md)
 
-- [EVOLAB Benchmark技术尽调报告-Cardano](https://github.com/EVOLABTeam/benchmark/blob/master/result/md/EVOLAB%20Benchmark%20Cardano.md)
+- [EVOLAB Benchmark技术尽调报告-Cardano](result/md/Benchmark_Cardano_zh-cn.md)
 
 # Benchmark是什么
 
@@ -35,7 +35,7 @@
 
 # Benchmark框架
 
-![Benchmark技术架构](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/EVOLAB%20Benchmark%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84.png)
+![Benchmark技术架构](media/Benchmark技术架构.png)
 
 
 ### 白皮书分析
@@ -44,7 +44,7 @@
 
 <summary>查看详情</summary>
 
-![白皮书分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/白皮书分析.png)
+![白皮书分析](media/白皮书分析.png)
 
 </details>
 
@@ -53,7 +53,7 @@
 <details>
 <summary>查看详情</summary>
 
-![代码分析](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90.png)
+![代码分析](media/代码分析.png)
 
 </details>
 
@@ -62,7 +62,7 @@
 <details>
 <summary>查看详情</summary>
 
-![性能测试](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.png)
+![性能测试](media/性能测试.png)
 
 </details>
 
@@ -71,18 +71,18 @@
 <details>
 <summary>查看详情</summary>
 
-![安全测试](https://github.com/EVOLABTeam/benchmark/blob/master/asset/img/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95.png)
+![安全测试](media/安全测试.png)
 
 </details>
 
 # 怎样参与
 
-:point_right:[《Benchmark社区规则》](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Rule.md)
+:point_right:[《Benchmark社区规则》](rule/md/Benchmark_rule/Benchmark_rule.md)
 
 
 # 奖励名单
 
-:trophy: [奖励名单](https://github.com/EVOLABTeam/benchmark/blob/master/rule/md/Benchmark%20Reward%20List.md)
+:trophy: [奖励名单](rule/md/Benchmark_reward_list/Benchmark_reward_list.md)
 
 欢迎大家一起来玩耍:dancers:
 
