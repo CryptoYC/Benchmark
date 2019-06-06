@@ -10,7 +10,7 @@
 
 - [Benchmark技术黄皮书](result/md/Benchmark_yellowpaper_zh-cn/Benchmark_rule.md)
 
-- [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
+- [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
 
 - [Benchmark术语表](result/md/Glossary/Glossary.md)
 
@@ -88,4 +88,4 @@
 
 # 学习资料
 
-- [《Benchmark技术指南》](https://github.com/EVOLABTeam/benchmark/wiki)
+- [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
