@@ -8,7 +8,7 @@
 
 - [Benchmark社区规则](rule/md/Benchmark_rule/Benchmark_rule.md)
 
-- [Benchmark技术黄皮书](result/md/Benchmark_yellowpaper_zh-cn/Benchmark_rule.md)
+- [Benchmark技术黄皮书](result/md/Benchmark_yellowpaper_zh-cn/Benchmark_yellowpaper_zh-cn.md)
 
 - [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
 
