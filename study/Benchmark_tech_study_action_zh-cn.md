@@ -1,7 +1,7 @@
 ## 实战部分
 ### 代码重复度计算
 1. 学习资料
-- [全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)
+- ~~[全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)~~
 - [TF-IDF与余弦相似性的应用(一):自动提取关键词](http://www.ruanyifeng.com/blog/2013/03/tf-idf.html)
 - [TF-IDF与余弦相似性的应用(二):找出相似文章](http://www.ruanyifeng.com/blog/2013/03/cosine_similarity.html)
 
