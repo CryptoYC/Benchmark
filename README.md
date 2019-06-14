@@ -25,6 +25,8 @@
 
 - [EVOLAB Benchmark技术尽调报告-Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
 
+- [EVOLAB Benchmark技术尽调报告-Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
+
 # Benchmark是什么
 
 > 贪婪，导致了许多项目在没有进行尽职调查的情况下轻松筹集了数百万美元 --《为何查理·芒格拒绝数字资产？》
