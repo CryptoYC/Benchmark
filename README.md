@@ -1,19 +1,12 @@
 # Benchmark公告 :exclamation::exclamation::exclamation:
 ## TO-DO
 
-- [Benchmark模板](rule/Benchmark_template/Benchmark_template.md)
-
-
 ## In-Progress
 
-- [Benchmark社区规则](rule/Benchmark_rule/Benchmark_rule.md)
 
 - [Benchmark技术黄皮书](result/Benchmark_yellowpaper_zh-cn/Benchmark_yellowpaper_zh-cn.md)
 
 - [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
-
-- [Benchmark术语表](result/Glossary/Glossary.md)
-
 
 ## Done
 
@@ -26,6 +19,10 @@
 - [EVOLAB Benchmark技术尽调报告-Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
 
 - [EVOLAB Benchmark技术尽调报告-Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
+
+- [Benchmark社区规则](rule/Benchmark_rule/Benchmark_rule.md)
+
+- [Benchmark模板](rule/Benchmark_template/Benchmark_template.md)
 
 # Benchmark是什么
 
@@ -91,3 +88,5 @@
 # 学习资料
 
 - [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
+
+- [Benchmark术语表](result/Glossary/Glossary.md)
