@@ -1,19 +1,12 @@
 # Benchmark公告 :exclamation::exclamation::exclamation:
 ## TO-DO
 
-- [Benchmark模板](rule/md/Benchmark_template/Benchmark_template.md)
-
-
 ## In-Progress
 
-- [Benchmark社区规则](rule/md/Benchmark_rule/Benchmark_rule.md)
 
-- [Benchmark技术黄皮书](result/md/Benchmark_yellowpaper_zh-cn/Benchmark_yellowpaper_zh-cn.md)
+- [Benchmark技术黄皮书](result/Benchmark_yellowpaper_zh-cn/Benchmark_yellowpaper_zh-cn.md)
 
 - [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
-
-- [Benchmark术语表](result/md/Glossary/Glossary.md)
-
 
 ## Done
 
@@ -24,6 +17,12 @@
 - [EVOLAB Benchmark技术尽调报告-Vechain](https://mp.weixin.qq.com/s/K5CPeWYLEECddRHXSAMQ2Q)
 
 - [EVOLAB Benchmark技术尽调报告-Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
+
+- [EVOLAB Benchmark技术尽调报告-Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
+
+- [Benchmark社区规则](rule/Benchmark_rule/Benchmark_rule.md)
+
+- [Benchmark模板](rule/Benchmark_template/Benchmark_template.md)
 
 # Benchmark是什么
 
@@ -77,15 +76,17 @@
 
 # 怎样参与
 
-:point_right:[《Benchmark社区规则》](rule/md/Benchmark_rule/Benchmark_rule.md)
+:point_right:[《Benchmark社区规则》](rule/Benchmark_rule/Benchmark_rule.md)
 
 
 # 奖励名单
 
-:trophy: [奖励名单](rule/md/Benchmark_reward_list/Benchmark_reward_list.md)
+:trophy: [奖励名单](rule/Benchmark_reward_list/Benchmark_reward_list.md)
 
 欢迎大家一起来玩耍:dancers:
 
 # 学习资料
 
 - [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
+
+- [Benchmark术语表](result/Glossary/Glossary.md)
