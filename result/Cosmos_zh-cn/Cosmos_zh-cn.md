@@ -24,7 +24,7 @@ Tendermint 是部分同步运作的拜占庭容错共识协议，以简易型、
 这两步合起来，不但可以保证安全，还能保证共识算法的活跃。据白皮书描述，Tendermint轻客戸端可以定期同步验证组的变动，以避免出现远距离攻击。
 
 ###  (三) 安全
-![GitHub](https://github.com/EVOLABTeam/Benchmark/blob/master/result/Cosmos_zh-cn/Picture/0.35vs0.36.png)
+![GitHub](Picture/0.35vs0.36.png)
 
 
 ### (四) 性能
