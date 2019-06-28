@@ -79,7 +79,7 @@ A validator moves from unbonding to unbonded when the ValidatorQueue object move
 简单地说，验证者的状态存在着由non-bonded->bonded->unbonding->unbonded 这样的转换过程。 同样，[委托者也存在着一定的状态转换](https://cosmos.network/docs/spec/staking/02_state_transitions.html#state-transitions)对该状态转换的总结如下：token的持有者可以将自己的token委托给验证者进行抵押以获取收益，验证者在bonded状态下开始接受收益。之后，委托者若想要赎回委托（undelegate），Validator需要退出bonded状态并进入unbonding状态，此时委托者才能进行unbondingdelegation。  
 处于 unbonding 状态的验证者，当用户赎回时间 21 天（锁仓期）到期之后，将进入到 unbonded 状态，此时委托者接收到之前抵押的 Atom 及抵押期间的收益。并且，委托者可以进行redelegation操作重新进入委托状态。  
 为了让大家能够更加直观清晰地对状态转换以及锁仓时间有所了解，下面给出了图例。  
-![验证者状态转换以及委托者锁仓期时间说明](Picture/cosmos.png)  
+![验证者状态转换以及委托者锁仓期时间说明](Picture/cosmos.png "验证者状态转换以及委托者锁仓期时间说明")  
 从设计流程上进行分析，项目不存在可疑之处，但是在实际的代码中，出现的严重的逻辑错误，导致委托者可以减少锁仓期时间，提前赎回token。  
 下面对项目中的具体出现逻辑错误的代码进行分析。
 这是未修改前的Undelegate函数
@@ -155,7 +155,7 @@ func (k Keeper) getBeginInfo(ctx sdk.Context, valSrcAddr sdk.ValAddress) (
 
 下面对修复后的代码进行review。  
 
-![GitHub](Picture/0.35vs0.36.png)
+![GitHub](Picture/0.35vs0.36.png "0.35与0.36核心修改部分对比")
 我们可以看到，为了解决这个逻辑错误，实际上只需要保证委托人在insertUBDQueue时所使用的completionTime参数为从当前时间算起的锁仓时间结束之后，而不是从验证者unbond时间开始。  
 **2.COSMOS整体安全性评估**  
 根据我们对COSMOS项目的调查分析，并且参考[其他研究者对COSMOS项目的研究工作](https://bubowerks.io/blog/2018/08/03/risk-assessment-of-cosmos-tendermint-validators/)\([中文翻译](https://medium.com/irisnet-blog/%E5%85%B3%E4%BA%8Ecosmos-tendermint%E9%AA%8C%E8%AF%81%E4%BA%BA%E7%9A%84%E9%A3%8E%E9%99%A9%E5%88%86%E6%9E%90-e1aa90f1545)\)，我们对COSMOS项目的特性进行了安全性评估。
@@ -183,8 +183,9 @@ func (k Keeper) getBeginInfo(ctx sdk.Context, valSrcAddr sdk.ValAddress) (
 27)	由于数据中心服务的不可用导致验证人服务的不可用:由于各种灾难，极端天气等事件，数据中心可能会不可用。例如Katrina和Sandy飓风都导致了大规模的数据中心断电，同时数据中心也可能被水淹没。极端天气的增多将增大这种不确定性。
 28)	由于DDoS导致不可用：验证人若不能保证上线则会导致相应的惩罚。针对验证人的DDoS攻击或者针对其sentry和支持系统的DDoS攻击将导致很大的威胁。
 29)	由于目标网络失效而导致的不可用：虽然DDoS攻击是将系统从互联网上隔离的最常用方式，但攻击者也可能使用更具针对性的网络中断，包括黑客流量或利用验证人网络硬件上的漏洞等手段。
-30)	由于敲诈勒索而导致的撤销抵押：委托人可能会经常变动他们的委托。验证人控制的权益数量也会影响委托人的行为。如果委托人的委托占比很大，那么委托人可能会威胁验证人来满足他的需要。
-我们为这些COSMOS中可能出现的威胁进行了等级评估 
+30)	由于敲诈勒索而导致的撤销抵押：委托人可能会经常变动他们的委托。验证人控制的权益数量也会影响委托人的行为。如果委托人的委托占比很大，那么委托人可能会威胁验证人来满足他的需要。  
+
+<center>我们为这些COSMOS中可能出现的威胁根据发生的可能性以及后果的严重程度进行了等级评估 </center>
 
 | 威胁来源 | 类型 | 等级 |
 | :------: | :------: | :------: |
@@ -210,6 +211,15 @@ func (k Keeper) getBeginInfo(ctx sdk.Context, valSrcAddr sdk.ValAddress) (
 |由于DDoS导致不可用 | 验证者系统 |<table><tr><td bgcolor=yellow>中危</td></tr></table> |
 | 由于目标网络失效而导致的不可用 | 验证者系统 |<table><tr><td bgcolor=yellow>中危</td></tr></table> |
 | 由于敲诈勒索而导致的撤销抵押 | 验证者系统与委托人系统 |<table><tr><td bgcolor=yellow>高危</td></tr></table> |
+
+**3.COSMOS原理层面安全性分析**  
+与Polkadot的共享全局安全理念不同，COSMOS主要是独立的局部安全理念。  
+在COSMOS网络中中，每条链独立运行，可以使用不同的共识机制，并设立相应的验证者保证这条链的安全性。
+![GitHub](Picture/COSMOS_Malicious.png "COSMOS恶意攻击实例")
+那么，这样可能遇到的恶意攻击模式主要是：对于COSMOS而言，每一个区域Zone的验证者都不一定是可信的。比方说，这些小红点表示一种ETM代币（Ethermint zone的原生货币）。zone A，B和C中的用户想将ETM用于这些zone内的一些应用程序，并且他们信任Ethermint zone，所以他们发送IBC消息来将ETM传递到这些zone。现在假设Ethermint验证者共谋、发起双花交易，随意动用代币等等。  
+这将对网络的其余部分产生影响，因为ETM代币也存在于不同的zone。不过，唯一将受此影响的是在Ethermint或其他zone内持有ETM代币的人。 Ethermint中的恶意验证者不可能随意破坏除自身以外的其他zone。这是Cosmos设计的目的 - 确保恶意行为不会影响整个网络。  
+因为Cosmos团队来源于Tendermint，而Tendermint共识本身是一种基于BFT(拜占庭容错)的共识算法，可以允许有一定的节点作恶存在而不影响整个系统的运转，中心Hub负责保证COSMOS整体上的安全性并且负责zone之间token的平衡问题。每一份资产都有唯一的转移路径，并且需要经过Hub来完成，因此即使某一个Zone真的发生故障，也绝不会影响到整个网络中token的整体供应，更不会影响到其他zone里的账户，整体COSMOS将正常运行，直到该Zone重新上线。
+
 
 
 
