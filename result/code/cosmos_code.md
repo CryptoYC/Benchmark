@@ -22,6 +22,7 @@ Cosmos项目起始于2016第一季度，随后于一年后的2017年第一季度
 ### 社区讨论
 #### Issues
 一共有359个issues，其中内容数量超过10条的主题有：
+
 | Issue主题 | 讨论与提交 |
 | :------ | ------: |
 | 安全 | 10 |
@@ -46,12 +47,97 @@ Cosmos项目起始于2016第一季度，随后于一年后的2017年第一季度
 Cosmos是个有着宏伟目标的区块链项目。在DPOS+BFT的共识引擎的基础上，Cosmos提出了更大的区块链未来和蓝图：区块链开发简便，互通互联。Cosmos设计了区块链的基础设施和生态，区块链开发者只需要调用Cosmos-SDK，开发Plugin，处理特有业务。
 所有Cosmos生态中区块链的核心建立在Tendermint Core之上，使用其提供的DPOS+BFT的共识机制。Cosmos Hub提供了不同区块链的之间的交互和价值转移。各个区块链应用之间通过IBC接口进行通信。
 #### Cosmos网络开发进展
-Cosmos的开发如火如荼的进行中，各个子项目的代码更新非常密集。从这个网站可以看到各个模块的成熟程度：https://cosmos.network/roadmap。
+Cosmos的开发如火如荼的进行中，各个子项目的代码更新非常密集。从这个网站可以看到各个模块的成熟程度：https://cosmos.network/roadmap
 从上图可以看出，Cosmos项目由四个子项目组成：
-+Cosmos Hub - Cosmos生态中的区块链的互转互换模块
-+Cosmos SDK - ABCI应用程序的SDK
-+Tendermint Core - 共识机制引擎以及网络交互
-+Cosmos Voyager - 客户端终端，提供钱包以及投票等功能
++ Cosmos Hub - Cosmos生态中的区块链的互转互换模块
++ Cosmos SDK - ABCI应用程序的SDK
++ Tendermint Core - 共识机制引擎以及网络交互
++ Cosmos Voyager - 客户端终端，提供钱包以及投票等功能
+#### SDK
+![SDK结构](media/SDK.png)
+在Tendermint以及ABCI的基础上，为了进一步方便用户进行区块链开发，Cosmos提供了Cosmos SDK，把区块链中的一些通用模块标准化，用户只需要在SDK的基础上实现Plugin模块，处理一些链特有的业务。
+#### 测试网络
+Cosmos已经开始测试网络的对外测试：https://cosmos.network/testnet
+### Cosmos-SDK项目代码功能分析
+/baseapp：app部署涉及代码部分
+
+/client：用户操作整体里内容
+
+/codec：编码
+
+/contrib：生成
+
+/crypto：加密操作
+
+/docs：文档
+
+/scripts：脚本
+
+/server：服务提供
+
+/simapp：app封装操作
+
+/store：相关存储
+
+/tests：测试接口
+
+/types：数据类型与操作实现
+#### Golkadot对比（Golang版本 Polkadot）
+/client
+
+	/chain：Chain结构、Block生成、回滚、哈希值、创世区块、格式转换、加载模块
+	
+	/db：Block存储相关配置、操作接口、Chain结构存储
+	
+	/p2p：Client连接同步与配置、连接池、同步锁、请求与返回
+	
+	/rpc：author、chain、state、system、types的接口集合，调用远程接口
+	
+	/runtime：内存管理
+	
+	/storage：存储
+	
+	/telemetry：连接内容
+	
+	/types：各种类型方法与实现
+	
+	/ wasm：节点、Client类型定义与方法
+	
+/cmd：使用spf13/cobra帮助生成CLI界面
+
+/common
+
+	/assert：报错
+	
+	/bnutil：格式变量互相转化
+	
+	/chainspec：原生、创世链、key描述
+	
+	/codec：编码相关
+	
+	/crypto：加密解密验证
+	
+	/db：数据、文件存储、事务
+	
+	/dirutil：路径工具
+	
+	/diskdb：用LruDB创建DiskDB，以便FileFlatDB缓存并扩展TransactionDB
+	
+	/ext：执行错误生成
+	
+	/fileflatdb：文件、文件平台数据库
+	
+	/hexutil：16进制、校验
+	
+	/keyring：密钥环创建
+	
+	/mathutil：工具函数
+	
+	/mnemonic：钱包助记词
+	
+/logger：日志打印信息
+
+/types：自定义类型及方法
 
 ### 大体数据结构与说明
 #### baseapp/baseapp.go
