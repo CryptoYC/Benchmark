@@ -40,6 +40,19 @@ Cosmos项目起始于2016第一季度，随后于一年后的2017年第一季度
 | 提议 |	60|
 
 ## Cosmos-SDK代码分析
+### 项目整体介绍
+#### 项目结构
+![Cosmos项目结构](media/Project.png) 
+Cosmos是个有着宏伟目标的区块链项目。在DPOS+BFT的共识引擎的基础上，Cosmos提出了更大的区块链未来和蓝图：区块链开发简便，互通互联。Cosmos设计了区块链的基础设施和生态，区块链开发者只需要调用Cosmos-SDK，开发Plugin，处理特有业务。
+所有Cosmos生态中区块链的核心建立在Tendermint Core之上，使用其提供的DPOS+BFT的共识机制。Cosmos Hub提供了不同区块链的之间的交互和价值转移。各个区块链应用之间通过IBC接口进行通信。
+#### Cosmos网络开发进展
+Cosmos的开发如火如荼的进行中，各个子项目的代码更新非常密集。从这个网站可以看到各个模块的成熟程度：https://cosmos.network/roadmap。
+从上图可以看出，Cosmos项目由四个子项目组成：
++Cosmos Hub - Cosmos生态中的区块链的互转互换模块
++Cosmos SDK - ABCI应用程序的SDK
++Tendermint Core - 共识机制引擎以及网络交互
++Cosmos Voyager - 客户端终端，提供钱包以及投票等功能
+
 ### 大体数据结构与说明
 #### baseapp/baseapp.go
 ```go
@@ -81,4 +94,134 @@ type BaseApp struct {
 	appVersion string	// 应用程序的版本字符串
 }
 ```
+#### simapp/app.go
+```go
+// Extended ABCI application
+type SimApp struct {
+	*bam.BaseApp
+	cdc *codec.Codec
 
+	invCheckPeriod uint
+
+	// keys to access the substores
+	keyMain          *sdk.KVStoreKey
+	keyAccount       *sdk.KVStoreKey
+	keyStaking       *sdk.KVStoreKey
+	tkeyStaking      *sdk.TransientStoreKey
+	keySlashing      *sdk.KVStoreKey
+	keyMint          *sdk.KVStoreKey
+	keyDistr         *sdk.KVStoreKey
+	tkeyDistr        *sdk.TransientStoreKey
+	keyGov           *sdk.KVStoreKey
+	keyFeeCollection *sdk.KVStoreKey
+	keyParams        *sdk.KVStoreKey
+	tkeyParams       *sdk.TransientStoreKey
+
+	// keepers
+	accountKeeper       auth.AccountKeeper
+	feeCollectionKeeper auth.FeeCollectionKeeper
+	bankKeeper          bank.Keeper
+	stakingKeeper       staking.Keeper
+	slashingKeeper      slashing.Keeper
+	mintKeeper          mint.Keeper
+	distrKeeper         distr.Keeper
+	govKeeper           gov.Keeper
+	crisisKeeper        crisis.Keeper
+	paramsKeeper        params.Keeper
+
+	// the module manager
+	mm *module.Manager
+}
+```
+#### /client/context/context.go
+```go
+// CLIContext实现了在SDK模块中创建的典型CLI上下文，用于事务处理和查询。
+type CLIContext struct {
+	Codec         *codec.Codec
+	AccDecoder    authtypes.AccountDecoder
+	Client        rpcclient.Client
+	Keybase       cryptokeys.Keybase
+	Output        io.Writer
+	OutputFormat  string
+	Height        int64
+	NodeURI       string
+	From          string
+	AccountStore  string
+	TrustNode     bool
+	UseLedger     bool
+	BroadcastMode string
+	PrintResponse bool
+	Verifier      tmlite.Verifier
+	VerifierHome  string
+	Simulate      bool
+	GenerateOnly  bool
+	FromAddress   sdk.AccAddress
+	FromName      string
+	Indent        bool
+	SkipConfirm   bool
+}
+```
+#### /store/cachkv/store.go
+```go
+// 如果value为nil但删除为false，则表示父级没有密钥。 （无需在Write（）上删除）
+type cValue struct {
+	value   []byte
+	deleted bool
+	dirty   bool
+}
+// Store围绕底层类型.KVStore包装内存缓存
+type Store struct {
+	mtx           sync.Mutex
+	cache         map[string]*cValue
+	unsortedCache map[string]struct{}
+	sortedCache   *list.List // always ascending sorted
+	parent        types.KVStore
+}
+```
+#### /store/cachkv/mergeiterator.go
+```go
+// cacheMergeIterator合并父Iterator和缓存Iterator。
+// 缓存迭代器可以返回nil键来表示项目已被删除（但未在父级中删除）。
+// 如果缓存迭代器具有与父级相同的密钥，则缓存阴影（覆盖）父级。
+// TODO：通过记忆优化。
+type cacheMergeIterator struct {
+	parent    types.Iterator
+	cache     types.Iterator
+	ascending bool
+}
+```
+#### /store/cachkv/memiterator.go
+```go
+// 迭代iterKVCache项目。
+// 如果key为nil，表示已删除。
+// 实现迭代器。
+type memIterator struct {
+	start, end []byte
+	items      []*cmn.KVPair
+	ascending  bool
+}
+```
+#### /store/cachemulti/storei.go
+```go
+// Store拥有许多缓存包装的商店。
+//实现MultiStore。
+//注意：商店（以及一般的MultiStores）不应该公开
+  子房的钥匙。
+type Store struct {
+	db     types.CacheKVStore
+	stores map[types.StoreKey]types.CacheWrap
+	keys   map[string]types.StoreKey
+
+	traceWriter  io.Writer
+	traceContext types.TraceContext
+}
+```
+#### /store/dbadapter/store.go
+```go
+//dbm.Db的包装类型，实现了KVStore
+type Store struct {
+	dbm.DB
+}
+```
+#### 整体分析
+综合来看，整体项目中的数据结构与方法集成于/baseapp目录调用，其中/store为重要目录。具体代码内聚性较高，对应低耦合度，调用清晰，代码量分配平均。
