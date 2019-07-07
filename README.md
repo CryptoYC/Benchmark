@@ -20,6 +20,8 @@
 
 - [EVOLAB Benchmark技术尽调报告-Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
 
+- [EVOLAB Benchmark技术尽调报告-Cosmos](https://mp.weixin.qq.com/s/1mCLkHr_aPrfl05YjewO2Q)
+
 - [Benchmark社区规则](rule/Benchmark_rule/Benchmark_rule.md)
 
 - [Benchmark模板](rule/Benchmark_template/Benchmark_template.md)
