@@ -2,18 +2,18 @@
 ---------
 # 什么是HoloChain
 在区块链中，每个节点都努力拥有分布式账本相同的最新的副本。区块链也存在极高的存储成本和低可扩展性的障碍。Holochain试图打破这些障碍，以便让应用程序开发人员更便宜并且能够快速运行他们的产品。Holochain与区块链的区别在于，它试图成为一种轻量级架构，即使手机和其他低容量设备也可以运行网络。  
-![GitHub](./benchmark/HoloChain/HOLOCHAIN.png)
+![GitHub](./media/HOLOCHAIN.png)
 Holochain不是区块链,Holochain是一种技术——在分布式哈希表（DHT）和自定义数据验证上进行拼接以实现不同模式的分布式计算技术。  
 
 
 每个holochain都有三个主要的子系统，如下图所示
-![GitHub](./benchmark/HoloChain/Holochain_Subsystems.png)
+![GitHub](./meida/Holochain_Subsystems.png)
 
 
 应用程序(Application)将所有部分组合成一个统一整体。可以使用Web浏览器连接到用户界面，此应用程序可以在本地签名哈希链上进行读写，也可以从共享DHT获取数据，并将数据放在共享DHT上。最重要的是，它提供了每个人运行的验证规则，以确保共享DHT中保存的数据不会被篡改，伪造或丢失。
 
 本地源链(local source chain)是指除了区块链之类的共享全局分类账外，每个人都有自己的本地链，在将它们发布到共享DHT之前，他们会签署这些链。涉及多方的交互（例如两个人之间的货币转移）由每一方签署并致力于他们自己的链，然后由各方共享给DHT。
-![GitHub](./benchmark/HoloChain/Holochain_Source.png)
+![GitHub](./media/Holochain_Source.png)
 
 如果应用程序（如分布式Facebook，Twitter，Slack，Uber或AirBnB）在holochain上运行，可以将推文写入自己的链，然后分享它。然后信息可以通过共享DHT传播，其中节点可以根据共享规则或期望执行此操作。
 
