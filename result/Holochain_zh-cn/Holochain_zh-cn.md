@@ -2,7 +2,7 @@
 ---------
 # 什么是HoloChain
 在区块链中，每个节点都努力拥有分布式账本相同的最新的副本。区块链也存在极高的存储成本和低可扩展性的障碍。Holochain试图打破这些障碍，以便让应用程序开发人员更便宜并且能够快速运行他们的产品。Holochain与区块链的区别在于，它试图成为一种轻量级架构，即使手机和其他低容量设备也可以运行网络。  
-![GitHub](./benchmark/HoloChain/HOLOCHAIN.png)
+![GitHub](./media/HOLOCHAIN.png)
 Holochain不是区块链,Holochain是一种技术——在分布式哈希表（DHT）和自定义数据验证上进行拼接以实现不同模式的分布式计算技术。  
 
 # 什么是DHT 
