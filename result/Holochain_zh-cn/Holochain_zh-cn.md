@@ -7,7 +7,7 @@ Holochain不是区块链,Holochain是一种技术——在分布式哈希表（D
 
 
 每个holochain都有三个主要的子系统，如下图所示
-![GitHub](./meida/Holochain_Subsystems.png)
+![GitHub](./media/Holochain_Subsystems.png)
 
 
 应用程序(Application)将所有部分组合成一个统一整体。可以使用Web浏览器连接到用户界面，此应用程序可以在本地签名哈希链上进行读写，也可以从共享DHT获取数据，并将数据放在共享DHT上。最重要的是，它提供了每个人运行的验证规则，以确保共享DHT中保存的数据不会被篡改，伪造或丢失。
