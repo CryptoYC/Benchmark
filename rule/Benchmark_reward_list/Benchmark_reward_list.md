@@ -1,4 +1,5 @@
 ## 2019.6.11~2019.6.18
+1. [aturX](https://github.com/aturX)  完成Cosmos白皮书分析:clap: ，获得赏金250 EVO:moneybag:
 
 ## 2019.6.4~2019.6.10
 1. [aturX](https://github.com/aturX)  完成Zilliqa白皮书分析:clap: ，获得赏金500 EVO:moneybag:
