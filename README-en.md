@@ -85,9 +85,9 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 :trophy: [reward list](rule/Benchmark_reward_list/Benchmark_reward_list.md)
 
-Welcome everyone to play together:dancers:
+Welcome everyone to play together:dancers:  
 
-# Learning materials
+# Learning materials
 
 - [Benchmark Technical Guide](study/Benchmark_tech_study_zh-cn.md)
 
