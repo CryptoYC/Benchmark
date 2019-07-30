@@ -36,7 +36,7 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 # BenchmarkFrame
 
-[Benchmark Technology Architecture] (media/Benchmark Technology Architecture.png)
+[Benchmark Technology Architecture](media/Benchmark Technology Architecture.png)
 
 
 ### White Paper Analysis
@@ -45,7 +45,7 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 <summary>View details</summary>
 
-[White Paper Analysis] (media/white paper analysis.png)
+[White Paper Analysis](media/white paper analysis.png)
 
 </details>
 
@@ -54,7 +54,7 @@ If you have any comments or ideas, please contact us or join the technical commu
 <details>
 <summary>View details</summary>
 
-![code analysis] (media/code analysis.png)
+![code analysis](media/code analysis.png)
 
 </details>
 
@@ -63,7 +63,7 @@ If you have any comments or ideas, please contact us or join the technical commu
 <details>
 <summary>View details</summary>
 
-[Performance test] (media/performance test.png)
+[Performance test](media/performance test.png)
 
 </details>
 
@@ -83,12 +83,12 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 # Reward list
 
-:trophy: [reward list] (rule/Benchmark_reward_list/Benchmark_reward_list.md)
+:trophy: [reward list](rule/Benchmark_reward_list/Benchmark_reward_list.md)
 
 Welcome everyone to play together: dancers:
 
 # Learning materials
 
-- [Benchmark Technical Guide] (study/Benchmark_tech_study_zh-cn.md)
+- [Benchmark Technical Guide](study/Benchmark_tech_study_zh-cn.md)
 
-- [Benchmark glossary] (result/Glossary/Glossary.md)
+- [Benchmark glossary](result/Glossary/Glossary.md)
