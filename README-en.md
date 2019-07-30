@@ -4,27 +4,27 @@
 ## In-Progress
 
 
-- [Benchmark Technology Yellow Book] (result/Benchmark_yellowpaper_zh-cn/Benchmark_yellowpaper_zh-cn.md)
+- [Benchmark Technology Yellow Book](result/Benchmark_yellowpaper_zh-cn/Benchmark_yellowpaper_zh-cn.md)
 
-- [Benchmark Technical Guide] (study/Benchmark_tech_study_zh-cn.md)
+- [Benchmark Technical Guide](study/Benchmark_tech_study_zh-cn.md)
 
 ## Done
 
-- [EVOLAB Benchmark Technology Duty Report - Quark] (https://mp.weixin.qq.com/s/GtMxlf8J8QdTiV2sZVTAPw)
+- [EVOLAB Benchmark Technology Duty Report - Quark](https://mp.weixin.qq.com/s/GtMxlf8J8QdTiV2sZVTAPw)
 
-- [EVOLAB Benchmark Technology Outcome Report - Tron] (https://mp.weixin.qq.com/s/-NPpj73BCy381O4bwTcZ2A)
+- [EVOLAB Benchmark Technology Outcome Report - Tron](https://mp.weixin.qq.com/s/-NPpj73BCy381O4bwTcZ2A)
 
-- [EVOLAB Benchmark Technology Outcome Report - Vechain] (https://mp.weixin.qq.com/s/K5CPeWYLEECddRHXSAMQ2Q)
+- [EVOLAB Benchmark Technology Outcome Report - Vechain](https://mp.weixin.qq.com/s/K5CPeWYLEECddRHXSAMQ2Q)
 
-- [EVOLAB Benchmark Technology Outcome Report - Cardano] (https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
+- [EVOLAB Benchmark Technology Outcome Report - Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
 
-- [EVOLAB Benchmark Technology Outcome Report - Zilliqa] (https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
+- [EVOLAB Benchmark Technology Outcome Report - Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
 
-- [EVOLAB Benchmark Technology Outcome Report - Cosmos] (https://mp.weixin.qq.com/s/1mCLkHr_aPrfl05YjewO2Q)
+- [EVOLAB Benchmark Technology Outcome Report - Cosmos](https://mp.weixin.qq.com/s/1mCLkHr_aPrfl05YjewO2Q)
 
-- [Benchmark Community Rules] (rule/Benchmark_rule/Benchmark_rule.md)
+- [Benchmark Community Rules](rule/Benchmark_rule/Benchmark_rule.md)
 
-- [Benchmark template] (rule/Benchmark_template/Benchmark_template.md)
+- [Benchmark template](rule/Benchmark_template/Benchmark_template.md)
 
 # BenchmarkWhat is it?
 
