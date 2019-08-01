@@ -246,4 +246,4 @@ references:
 
 [2]<https://www.meti.go.jp/english/press/2017/pdf/0329_004a.pdf>
 
-[3]<https://wiki.mbalib.com/wiki/%E4%B8%89%E6%AC%A1%E5%88%86%E9%85%8D%E7%90%86%E8%AE %BA>
+[3]<https://wiki.mbalib.com/wiki/%E4%B8%89%E6%AC%A1%E5%88%86%E9%85%8D%E7%90%86%E8%AE%BA>
