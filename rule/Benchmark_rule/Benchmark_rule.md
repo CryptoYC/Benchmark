@@ -3,7 +3,7 @@
 现在Benchmark社区成员有三种角色，分别是管理员、猎人和新手，猎人具有领赏金做任务的资格，猎人和新手都可以参与到社区的建设。
 ## 规则
 ###  加入社区
-1. 添加小助手 CryptoYC_Tech , 并发送消息"Benchmark"
+1. 添加小助手 , 并发送消息"Benchmark"
 2. 成为小助手的好友后，小助手就会带到Benchmark社群，成为Benchmark学徒
 3. 进不进社区，都可以开始学习[《Benchmark框架从入门到精通》](https://github.com/CryptoYCTeam/benchmark/wiki/Benchmark%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A) :boom:
 
