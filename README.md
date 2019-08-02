@@ -1,4 +1,5 @@
 # Benchmark Announcement :exclamation::exclamation::exclamation:
+[中文](README_CN.md)
 ## TO-DO
 
 ## In-Progress
