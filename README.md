@@ -10,17 +10,17 @@
 
 ## Done
 
-- [EVOLAB Benchmark技术尽调报告-Quark](https://mp.weixin.qq.com/s/GtMxlf8J8QdTiV2sZVTAPw)
+- [CryptoYC Benchmark技术尽调报告-Quark](https://mp.weixin.qq.com/s/GtMxlf8J8QdTiV2sZVTAPw)
 
-- [EVOLAB Benchmark技术尽调报告-Tron](https://mp.weixin.qq.com/s/-NPpj73BCy381O4bwTcZ2A)
+- [CryptoYC Benchmark技术尽调报告-Tron](https://mp.weixin.qq.com/s/-NPpj73BCy381O4bwTcZ2A)
 
-- [EVOLAB Benchmark技术尽调报告-Vechain](https://mp.weixin.qq.com/s/K5CPeWYLEECddRHXSAMQ2Q)
+- [CryptoYC Benchmark技术尽调报告-Vechain](https://mp.weixin.qq.com/s/K5CPeWYLEECddRHXSAMQ2Q)
 
-- [EVOLAB Benchmark技术尽调报告-Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
+- [CryptoYC Benchmark技术尽调报告-Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
 
-- [EVOLAB Benchmark技术尽调报告-Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
+- [CryptoYC Benchmark技术尽调报告-Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
 
-- [EVOLAB Benchmark技术尽调报告-Cosmos](https://mp.weixin.qq.com/s/1mCLkHr_aPrfl05YjewO2Q)
+- [CryptoYC Benchmark技术尽调报告-Cosmos](https://mp.weixin.qq.com/s/1mCLkHr_aPrfl05YjewO2Q)
 
 - [Benchmark社区规则](rule/Benchmark_rule/Benchmark_rule.md)
 
@@ -30,7 +30,7 @@
 
 > 贪婪，导致了许多项目在没有进行尽职调查的情况下轻松筹集了数百万美元 --《为何查理·芒格拒绝数字资产？》
 
-为了让投资者透明化地了解一个区块链项目的技术情况，我们从共识、安全、性能、技术创新、代码和经济模型进行研究，推出了区块链项目的技术尽调报告EVOLAB Benchmark(下面简称"Benchmark")。
+为了让投资者透明化地了解一个区块链项目的技术情况，我们从共识、安全、性能、技术创新、代码和经济模型进行研究，推出了区块链项目的技术尽调报告CryptoYC Benchmark(下面简称"Benchmark")。
 
 若有意见或想法，请向我们issue或者加入技术社区，非常感谢 :heart:
 
