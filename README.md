@@ -10,17 +10,7 @@
 
 ## Done
 
-- [CryptoYC Benchmark技术尽调报告-Quark](https://mp.weixin.qq.com/s/GtMxlf8J8QdTiV2sZVTAPw)
 
-- [CryptoYC Benchmark技术尽调报告-Tron](https://mp.weixin.qq.com/s/-NPpj73BCy381O4bwTcZ2A)
-
-- [CryptoYC Benchmark技术尽调报告-Vechain](https://mp.weixin.qq.com/s/K5CPeWYLEECddRHXSAMQ2Q)
-
-- [CryptoYC Benchmark技术尽调报告-Cardano](https://mp.weixin.qq.com/s/ghOmNEqo3o8eviQwWsqJqg)
-
-- [CryptoYC Benchmark技术尽调报告-Zilliqa](https://mp.weixin.qq.com/s/_AmX1sd6ckiHIvsreOY_OQ)
-
-- [CryptoYC Benchmark技术尽调报告-Cosmos](https://mp.weixin.qq.com/s/1mCLkHr_aPrfl05YjewO2Q)
 
 - [Benchmark社区规则](rule/Benchmark_rule/Benchmark_rule.md)
 
