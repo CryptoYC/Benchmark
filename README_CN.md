@@ -5,12 +5,11 @@
 ## In-Progress
 
 
-- [Benchmark技术黄皮书](result/Benchmark_yellowpaper_zh-cn/Benchmark_yellowpaper_zh-cn.md)
+- [Benchmark技术黄皮书](result/Benchmark_yellowpaper/README_CN.md)
 
 - [《Benchmark技术指南》](study/Benchmark_tech_study_zh-cn.md)
 
 ## Done
-
 
 
 - [Benchmark社区规则](rule/Benchmark_rule/Benchmark_rule.md)
@@ -24,48 +23,6 @@
 为了让投资者透明化地了解一个区块链项目的技术情况，我们从共识、安全、性能、技术创新、代码和经济模型进行研究，推出了区块链项目的技术尽调报告CryptoYC Benchmark(下面简称"Benchmark")。
 
 若有意见或想法，请向我们issue或者加入技术社区，非常感谢 :heart:
-
-# Benchmark框架
-
-![Benchmark技术架构](media/Benchmark技术架构.png)
-
-
-### 白皮书分析
-
-<details>
-
-<summary>查看详情</summary>
-
-![白皮书分析](media/白皮书分析.png)
-
-</details>
-
-### 代码分析
-
-<details>
-<summary>查看详情</summary>
-
-![代码分析](media/代码分析.png)
-
-</details>
-
-### 性能测试
-
-<details>
-<summary>查看详情</summary>
-
-![性能测试](media/性能测试.png)
-
-</details>
-
-### 安全测试
-
-<details>
-<summary>查看详情</summary>
-
-![安全测试](media/安全测试.png)
-
-</details>
 
 # 怎样参与
 
