@@ -14,7 +14,7 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 - [Benchmark Technical Guide](study/Benchmark_tech_study_en.md)
 
-- [Benchmark glossary](result/Glossary/Glossary.md)
+- [Benchmark glossary](result/Glossary/Glossary_en.md)
 
 
 
