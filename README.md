@@ -1,5 +1,13 @@
 # Benchmark Announcement :exclamation::exclamation::exclamation:
  [Home Page](https://aturx.github.io/benchmark/) | [中文](README_CN.md)
+ 
+## What is it?
+
+> Greed has led many projects to easily raise millions of dollars without due diligence -- "Why Charlie Munger rejects digital assets?" 
+
+In order to allow investors to transparently understand the technical situation of a blockchain project, we have conducted research on consensus, security, performance, technological innovation, code and economic models, and launched the CryptoYC Benchmark of the blockchain project. Referred to as "Benchmark").
+
+If you have any comments or ideas, please contact us or join the technical community. Thank you very much :heart:
 ## TO-DO
 
 ## In-Progress
@@ -14,13 +22,7 @@
 
 - [Benchmark template](rule/Benchmark_template/Benchmark_template.md)
 
-# What is it?
 
-> Greed has led many projects to easily raise millions of dollars without due diligence -- "Why Charlie Munger rejects digital assets?" 
-
-In order to allow investors to transparently understand the technical situation of a blockchain project, we have conducted research on consensus, security, performance, technological innovation, code and economic models, and launched the CryptoYC Benchmark of the blockchain project. Referred to as "Benchmark").
-
-If you have any comments or ideas, please contact us or join the technical community. Thank you very much :heart:
 
 # How to participate
 
