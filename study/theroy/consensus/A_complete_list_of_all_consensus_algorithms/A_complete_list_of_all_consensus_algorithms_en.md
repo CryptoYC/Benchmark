@@ -16,7 +16,7 @@ Bitcoin, Ethereum, Litecoin, etc.
 - Prevent DoS attacks.
 - Decentralization.
 
-**Disadvantages: **
+**Disadvantages:**
 
 - Great energy consumption.
 - Slow speed.
@@ -41,7 +41,7 @@ Dotcoin, Cosmos, etc.
 - Expandability.
   
 
-**Disadvantages: **
+**Disadvantages:**
 
 - May develop in a centralized direction
 
@@ -61,7 +61,7 @@ EOS, BitShares, etc.
 - Decentralization in a democratic way.
 - Expandability.
 
-**Disadvantages: **
+**Disadvantages:**
 
 - May develop in a centralized direction.
 - May cause the Matthew effect.
@@ -83,7 +83,7 @@ HyperLedger Sawtooth
 - For all participants, it is easier to verify that the leader is legally elected.
 - The cost of controlling the leader's electoral process is directly proportional to the value gained from it.
 
-**Disadvantages: **
+**Disadvantages:**
 
 - Although the cost of PoET is low, specific hardware must be used. Therefore, it will not be adopted on a large scale.
 - Not applicable to public blockchains.
@@ -106,7 +106,7 @@ Burst
 - Prevent DoS attacks.
 - Create blocks using memory or disk space instead of computing power.
 
-**Disadvantages: **
+**Disadvantages:**
 
 - Scalability is a problem
 
@@ -126,7 +126,7 @@ VeChain
 - Scalability.
 - Trustworthy nodes.
 
-**Disadvantages: **
+**Disadvantages:**
 
 - Not a true decentralized system.
 - The node cannot be anonymous.
