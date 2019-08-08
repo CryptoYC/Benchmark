@@ -10,7 +10,7 @@ In order to allow investors to transparently understand the technical situation 
 If you have any comments or ideas, please contact us or join the technical community. Thank you very much :heart:
 
 
-## technical guide
+## Technical guide
 
 - [Benchmark Technical Guide](study/Benchmark_tech_study_zh-cn.md)
 
