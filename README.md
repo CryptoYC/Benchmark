@@ -12,7 +12,7 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 ## Technical guide
 
-- [Benchmark Technical Guide](study/Benchmark_tech_study_zh-cn.md)
+- [Benchmark Technical Guide](study/Benchmark_tech_study_en.md)
 
 - [Benchmark glossary](result/Glossary/Glossary.md)
 
@@ -24,7 +24,7 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 - [Benchmark Technology Yellow Book](result/Benchmark_yellowpaper/README.md)
 
-- [Benchmark Technical Guide](study/Benchmark_tech_study_zh-cn.md)
+- [Benchmark Technical Guide](study/Benchmark_tech_study_en.md)
 
 ### Done
 
