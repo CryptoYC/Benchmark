@@ -28,15 +28,15 @@ If you have any comments or ideas, please contact us or join the technical commu
 
 ### Done
 
-- [Benchmark Community Rules](rule/Benchmark_rule/Benchmark_rule.md)
+- [Benchmark Community Rules](rule/Benchmark_rule/Benchmark_rule_en.md)
 
-- [Benchmark template](rule/Benchmark_template/Benchmark_template.md)
+- [Benchmark template](rule/Benchmark_template/Benchmark_template_en.md)
 
 
 
 ## How to participate
 
-:point_right:[Benchmark Community Rules](rule/Benchmark_rule/Benchmark_rule.md)
+:point_right:[Benchmark Community Rules](rule/Benchmark_rule/Benchmark_rule_en.md)
 
 
 ### Reward list
