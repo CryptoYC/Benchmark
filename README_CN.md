@@ -1,5 +1,5 @@
 # Benchmark公告 :exclamation::exclamation::exclamation:
-[English](README.md)
+[主页](https://aturx.github.io/benchmark/README_CN.html) | [English](README.md)
 ## TO-DO
 
 ## In-Progress
